@@ -44,6 +44,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 #<-- módulo feito por akhileshns. Com ele é possível fazer o deploy no heroku
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "templatecicdwebapi"
+          heroku_app_name: "testandotemplatecicd"
           heroku_email: "eoalcantara@gmail.com"
           usedocker: true
